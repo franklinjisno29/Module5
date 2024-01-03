@@ -60,7 +60,7 @@ namespace Nunitplaywright
             //Console.WriteLine(title);
 
             //Assert.That(title, Does.Contain("hp laptop"));
-            await Expect(Page).ToHaveTitleAsync("hp laptop - Google Search");
+            await Expect(Page).ToHaveTitleAsync("hp laptop - Google Search"); 
         }
     }
 }
