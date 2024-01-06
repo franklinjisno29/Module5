@@ -15,7 +15,8 @@ namespace Nunitplaywright
         public async Task Setup()
         {
             Console.WriteLine("Opened browser");
-            await Page.GotoAsync("http://eaapp.somee.com/");
+            await Page.GotoAsync("http://eaapp.somee.com/",
+                new PageGotoOptions {  Timeout = 3000, WaitUntil = WaitUntilState.DOMContentLoaded});
             Console.WriteLine("Page loaded");
         }
 
@@ -25,7 +26,7 @@ namespace Nunitplaywright
             //await Page.GetByText("Login").ClickAsync();
             //var lnklogin = Page.Locator(selector: "text=Login");
             //await lnklogin.ClickAsync();
-            await Page.ClickAsync(selector: "text=Login");
+            await Page.ClickAsync(selector: "text=Login", new PageClickOptions { Timeout = 1000});
             await Console.Out.WriteLineAsync("link clicked");
 
             await Expect(Page).ToHaveURLAsync("http://eaapp.somee.com/Account/Login");
@@ -36,7 +37,7 @@ namespace Nunitplaywright
             //await Page.Locator("#UserName").FillAsync(value: "admin");
             //await Page.Locator("#Password").FillAsync(value: "password");
 
-            await Page.FillAsync(selector: "#UserName", value: "admin");
+            await Page.FillAsync(selector: "#UserName", value: "admin", new PageFillOptions { Timeout=1000});
             await Page.FillAsync(selector: "#Password", value: "password");
             await Console.Out.WriteLineAsync("Typed");
 
