@@ -10,7 +10,7 @@ namespace AssignmentNunitPW
             Console.WriteLine("Opened browser");
             await Page.GotoAsync("https://www.naaptol.com/");
             Console.WriteLine("Page loaded");
-        }
+        } 
 
         [Test]
         public async Task ProductTest()

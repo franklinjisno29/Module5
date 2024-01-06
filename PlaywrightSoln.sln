@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppProject", "Consol
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nunitplaywright", "Nunitplaywright\Nunitplaywright.csproj", "{BF6C8A5B-53D9-45AD-9CB5-1031DA899087}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentNunitPW", "AssignmentNunitPW\AssignmentNunitPW.csproj", "{ADA8A341-ED19-4E87-AF6D-404B1A3DF99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentNunitPW", "AssignmentNunitPW\AssignmentNunitPW.csproj", "{ADA8A341-ED19-4E87-AF6D-404B1A3DF99A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POMProjectPW", "POMProjectPW\POMProjectPW.csproj", "{CE9D3317-D354-4CF2-B1AF-2639C502C0DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PWAPI", "PWAPI\PWAPI.csproj", "{9E1055D5-7ED3-49A2-99DC-D9B7D99EF275}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudyPW", "CaseStudyPW\CaseStudyPW.csproj", "{AF5435E5-1D8C-4706-9888-92D7A6415483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E1055D5-7ED3-49A2-99DC-D9B7D99EF275}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E1055D5-7ED3-49A2-99DC-D9B7D99EF275}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E1055D5-7ED3-49A2-99DC-D9B7D99EF275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF5435E5-1D8C-4706-9888-92D7A6415483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF5435E5-1D8C-4706-9888-92D7A6415483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF5435E5-1D8C-4706-9888-92D7A6415483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF5435E5-1D8C-4706-9888-92D7A6415483}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
